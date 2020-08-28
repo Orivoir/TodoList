@@ -1,7 +1,7 @@
 {
   "name": "todolist",
   "version": "1.0.0",
-  "description": "",
+  "description": "This app is a enjoy test with nodejs express and reactjs",
   "main": "server.js",
   "scripts": {
     "build": "webpack --mode development --watch",
@@ -17,7 +17,7 @@
     "url": "https://github.com/orivoir/todolist"
   },
   "keywords": [],
-  "author": "",
+  "author": "S.GABORIEAU <sam.gabor@hotmail.com> (https://orivoir.github.com/profil-reactjs)",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.19.0",
