@@ -12,6 +12,10 @@
   "bin": {
     "clear": "./.bin/clear.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/orivoir/todolist"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
