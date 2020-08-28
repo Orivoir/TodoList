@@ -6,7 +6,7 @@
 
 - /todolist
 
-  - weboack.config.js
+  - webpack.config.js
   - .babelrc
   - package.json
 
