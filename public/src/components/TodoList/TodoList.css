@@ -1,0 +1,15 @@
+.todolist {
+
+  padding: 1.5vh 0;
+  margin: 1.5vh 0;
+  height: 30vh;
+  min-height: 70px;
+  overflow: auto;
+}
+
+.empty-todo p {
+
+  font-size: var( --fsize-sm );
+  margin: 1.5vh 0;
+
+}

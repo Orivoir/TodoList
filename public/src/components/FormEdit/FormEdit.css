@@ -1,0 +1,26 @@
+.formedit {
+
+  display: flex;
+}
+
+.formedit button[type="button"] {
+
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.formedit button[type="submit"] {
+
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.formedit input {
+
+  padding: .42vh .3vw;
+  background: transparent;
+  color: var( --light );
+  border: none;
+  outline: none;
+  font-size: var( --fsize-x-sm );
+}

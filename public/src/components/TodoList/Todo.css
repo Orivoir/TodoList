@@ -1,0 +1,25 @@
+.todo {
+
+  background: var( --dark );
+  color: var( --light );
+  padding: 1.5vh 1vw;
+}
+
+.todo.even {
+
+  background: var( --dark-alt );
+}
+
+.todo section {
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.todo .content-text {
+
+  cursor: pointer;
+  color: var( --light );
+  text-decoration: none;
+}

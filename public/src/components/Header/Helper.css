@@ -1,0 +1,45 @@
+.helper .wrap-info {
+
+  background: var( --infos );
+  color: var( --light );
+  padding: 1.2vh 1.2vw;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.helper .wrap-info p {
+
+  font-size: var( --fsize-sm );
+  max-width: 66%;
+}
+
+
+.helper .wrap-info p button {
+
+  margin-left: 5vh;
+  text-transform: capitalize;
+}
+
+
+.helper .wrap-info.close {
+
+  animation: slideUp .18s ease-in-out forwards;
+}
+
+
+@media screen and (max-width: 800px), (max-height: 500px) {
+
+  .helper .wrap-info p {
+
+    font-size: var( --fsize-x-sm );
+  }
+
+  .helper .wrap-info p button {
+
+    margin-top: 1.2vh;
+  }
+}

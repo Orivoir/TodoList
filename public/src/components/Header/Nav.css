@@ -1,0 +1,28 @@
+.nav {
+
+  background: var( --dark-alt );
+  padding: 1.5vh 0vw;
+}
+
+.nav  ul {
+
+  display: flex;
+}
+
+.nav  ul li {
+
+  margin: 0 1.5vw;
+
+}
+
+.nav ul li button {
+
+  font-size: var( --fsize-md );
+  letter-spacing: .2rem;
+}
+
+.nav ul.reverse {
+
+
+  flex-direction: row-reverse;
+}

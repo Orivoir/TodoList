@@ -1,0 +1,37 @@
+.addtodo form {
+
+}
+
+.addtodo form label {
+
+  font-size: var( --fsize-md );
+}
+
+
+.addtodo form textarea {
+
+  display: block;
+  resize: none;
+  margin: .5vh 0;
+  width: 66%;
+  height: 72px;
+  background: var( --dark-alt );
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  padding: 1vh .42vw;
+  color: var( --light );
+  transition: .13s ease-in-out all;
+}
+
+
+.addtodo form textarea:focus {
+
+  background: var( --dark );
+}
+
+
+.addtodo form div {
+
+  margin: 1.5vh 0;
+}
